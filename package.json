@@ -5,6 +5,7 @@
   "main": "./src/assets/js/main.js",
   "scripts": {
     "dev": "webpack-dev-server --open",
+    "sass": "sass --watch src/assets/scss/style.scss:src/assets/css/style.css",
     "build": "webpack"
   },
   "author": "Gonzalo Fleming",
@@ -26,6 +27,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.8.7"
+    "@babel/polyfill": "^7.8.7",
+    "regenerator-runtime": "^0.13.7"
   }
 }
