@@ -7,7 +7,6 @@ class Serie {
   agregarPersonajes(personaje) {
     this.personajes.push(personaje);
   };
-
   getPersonajes(grab) {
       const resultados = document.getElementById("resultados");
       resultados.innerHTML += `

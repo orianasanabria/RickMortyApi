@@ -22,5 +22,4 @@ class Personaje {
     return this.getImagen();
   }
 }
-
 export default Personaje;
